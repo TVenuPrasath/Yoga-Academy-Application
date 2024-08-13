@@ -1,0 +1,76 @@
+.purchasepage {
+    padding: 20px;
+    min-height: 100vh;
+    background: linear-gradient(to top, #ccf4f2 0%, #fee0ea 100%);
+}
+
+.purchasepage h1 {
+    text-align: center;
+    color: #0C646F;
+    margin-bottom: 20px;
+}
+
+.plan-card {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-card h2 {
+    margin-top: 0;
+    color: #0C646F;
+}
+
+.plan-card p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.plan-card .course-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.plan-card .course-description {
+    color: #666;
+}
+
+.plan-card .course-duration,
+.plan-card .course-cost {
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .plan-card {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .plan-card {
+        padding: 10px;
+    }
+}
+
+.cancel-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #ff1a1a;
+  }
+  

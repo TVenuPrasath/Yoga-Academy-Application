@@ -1,0 +1,57 @@
+.detailbox {
+    width: 500px; /* Increased width */
+    margin: 50px auto;
+    padding: 15px; /* Reduced padding */
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detailbox form {
+    display: flex;
+    flex-direction: column;
+}
+
+.detailbox label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.detailbox input[type='text'],
+.detailbox textarea {
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px; /* Reduced margin */
+    width: calc(100% - 18px); /* Adjusting for padding and border */
+    background-color: #fff;
+}
+
+.detailbox input[type='text']:focus,
+.detailbox textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.detailbox textarea {
+    resize: none;
+    height: 80px; /* Reduced height */
+}
+
+.button1 {
+    padding: 8px 20px; /* Reduced padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.button1:hover {
+    background-color: #0056b3;
+}

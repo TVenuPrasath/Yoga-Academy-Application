@@ -1,0 +1,26 @@
+.policy-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #6e6e6e;
+  }
+  
+  .policy-container h2 {
+    font-size: 1.5em;
+    color: #4a4a4a;
+    margin-bottom: 0.5em;
+  }
+  
+  .policy-container ol {
+    margin-left: 1.5em;
+    padding-left: 0.5em;
+  }
+  
+  .policy-container ol li {
+    margin-bottom: 1em;
+  }
+  
+  .policy-container ol li p {
+    margin-top: 0.5em;
+    margin-left: 1em;
+  }
+  

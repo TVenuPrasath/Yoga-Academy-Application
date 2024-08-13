@@ -1,0 +1,47 @@
+.toppage{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.topleft{
+    height: 380px;
+    width: 70%;
+    border: 2px solid black;
+    margin-top: 7px;
+}
+.toprigth{
+    height: 380px;
+    width: 30%;
+    border: 2px solid black;
+    margin-top: 7px;
+}
+.about-this{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+}
+.benefits{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+}
+.bottompage{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-2div{
+    justify-content: space-around;
+}
+.description-div{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+.wh-th-co{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 5px;
+}
