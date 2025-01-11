@@ -1,0 +1,258 @@
+.plansbody{
+    height: max-content;
+    width: 100%; 
+    /* border: 2px solid black; */
+    flex-direction: column;
+    display: flex;
+    padding-top: 100px;
+    color: black;
+}
+.totalplan{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px 30px;
+    flex-wrap: wrap;
+    height: max-content;
+    margin-left: 3px;
+}
+.plans{
+height: 300px;
+width:75%;
+border-radius: 20px;
+/* border: 2px solid black; */
+box-shadow: 0px 4px 8px black;
+display: flex;
+}
+.planpic{
+    height: 270px;
+    width: 40%;
+    /* border: 2px solid black; */
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-image: url("../images/yogaplanimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.plantext{
+  height: 270px;
+  margin-left: 10px;
+  width: 57%;
+  /* border: 2px solid black; */
+  margin-top: 12px;
+  border-radius: 10px;
+  text-align: center;
+  white-space: normal; /* Allows text to wrap onto the next line */
+  overflow-wrap: break-word; 
+}
+.detailbox{
+  height: max-content;
+  width: 700px;
+  box-shadow: 0px 4px 8px black;
+  border-radius: 20px;
+  margin-left: 25%;
+  color:black;
+  padding-top: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+#planname{
+  width: 400px;
+  height: 30px;
+  margin-left: 50px;
+}
+.detailbox label{
+  margin-left: 50px;
+}
+.emptybox{
+  height: 50px;
+  width: 100px;
+  /* border: 2px solid black; */
+}
+.bodyexploreplan{
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid black; */
+  position: fixed;
+  top: 0px;
+  backdrop-filter: blur(10px);
+  display: grid;
+  grid-template-rows:95% 5% ;
+  place-items: center;
+} 
+.divexploreplan{
+  height: 40vh;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px black;
+  /* border: 2px solid black; */
+  background: transparent;
+  overflow: hidden;
+  text-align: center;
+  background-color:white;
+
+} 
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+.plan-edit-buttons{
+  /* margin-top: 130px; */
+  height: 40px;
+  width: 50%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  margin-left: 130px;
+}
+.editing-button{
+  width: 130px;
+  border-radius: 40px;
+  height: 40px;
+  cursor: pointer;
+
+}
+.del-button{
+  width: 130px;
+  border-radius: 40px;
+  height: 40px;
+  cursor: pointer;
+
+}
+/* Edit mode container */
+.edit-plan-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Input fields */
+.edit-plan-container input,
+.edit-plan-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Labels */
+.edit-plan-container label {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Save button */
+.save-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  align-self: flex-end;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+/* Cancel button */
+.cancel-button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  align-self: flex-end;
+  margin-left: 10px;
+}
+
+.cancel-button:hover {
+  background-color: #e53935;
+}
+
+/* Form layout */
+.edit-plan-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-plan-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.plan-edit-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+  /* margin-top: 2px; */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.plan-edit-buttons button:hover {
+  transform: scale(1.05);
+}
+
+.plan-edit-buttons button:active {
+  transform: scale(0.95);
+}
+
+/* Explore Button */
+.plan-edit-buttons button:nth-child(1) {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.plan-edit-buttons button:nth-child(1):hover {
+  background-color: #45a049;
+}
+
+/* Buy Button */
+.plan-edit-buttons button:nth-child(2) {
+  background-color: #008CBA;
+  color: white;
+}
+
+.plan-edit-buttons button:nth-child(2):hover {
+  background-color: #007bb5;
+}
+
+/* Edit Button (Admin) */
+.editing-button {
+  background-color: #FFA500;
+  color: white;
+}
+
+.editing-button:hover {
+  background-color: #e69500;
+}
+
+/* Delete Button (Admin) */
+.del-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.del-button:hover {
+  background-color: #da190b;
+}
